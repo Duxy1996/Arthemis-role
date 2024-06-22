@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #C0504D; /* Color vino */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #C0504D;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mainImage {
+  text-align: center;
+  width: 20%;
+  height: auto;
+}
+
+.rolTittle {
+  font-size: 120px;
+  font-family: 'Copperplate Gothic Light', sans-serif;
+  margin-top: 0;
+}
+
+.rolSubTittle {
+  font-size: 70px;
+  margin-top: 0;
+  font-family: 'Copperplate Gothic Light', sans-serif;
+}
+
+.content {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.contentImage {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #C0504D;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #C0504D;
+}
+
+.chevron-section {
+  background-color: #C0504D;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.chevron-section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #C0504D;
+  clip-path: polygon(50% 100%, 100% 100%, 100% 0);
+}
+
+.chevron-section::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #C0504D;
+  clip-path: polygon(50% 100%, 0% 100%, 0% 0)
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}
