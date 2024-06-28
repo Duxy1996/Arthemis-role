@@ -44,6 +44,7 @@ nav ul li a {
 .rolSubTittle {
   font-size: 70px;
   margin-top: 0;
+  margin-bottom: 1vw;
   font-family: 'Copperplate Gothic Light', sans-serif;
 }
 
@@ -97,6 +98,10 @@ button {
   font-family: 'Copperplate Gothic Light', sans-serif;
 }
 
+.historyTitle {
+
+}
+
 button:hover {
   background-color: #800020;
 }
@@ -105,30 +110,30 @@ button:hover {
   background-color: #800020;
   height: 50px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
 .chevron-section::before {
   content: "";
   display: block;
-  position: absolute;
+  position: fixed;
   bottom: 50px;
-  right: 0;
+  right: 0px;
   width: 100%;
-  height: 200px;
+  height: 6vw;
   background-color: #800020;
   clip-path: polygon(50% 100%, 100% 100%, 100% 0);
 }
 
 .chevron-section::after {
   content: "";
-  display: block;
+  display: fixed;
   position: absolute;
   bottom: 50px;
-  left: 0;
+  left: 0px;
   width: 100%;
-  height: 200px;
+  height: 6vw;
   background-color: #800020;
   clip-path: polygon(50% 100%, 0% 100%, 0% 0)
 }
@@ -147,4 +152,88 @@ footer {
 .hidden.visible {
   opacity: 1;
   pointer-events: auto;
+}
+@media (max-width: 1300px) {
+  .rolTittle {
+    font-size: 80px;
+    font-family: 'Copperplate Gothic Light', sans-serif;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .rolTittle {
+    font-size: 60px;
+    font-family: 'Copperplate Gothic Light', sans-serif;
+    margin-top: 0;
+  }
+
+  .rolSubTittle {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Copperplate Gothic Light', sans-serif;
+  }
+
+  .chevron-section::before {
+    visibility: hidden;
+  }
+
+  .chevron-section::after {
+    visibility: hidden;
+  }
+}
+
+@media (max-height: 800px) {
+  .rolTittle {
+    font-size: 60px;
+    font-family: 'Copperplate Gothic Light', sans-serif;
+    margin-top: 0;
+  }
+
+  .rolSubTittle {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Copperplate Gothic Light', sans-serif;
+  }
+
+  .chevron-section::before {
+    visibility: hidden;
+  }
+
+  .chevron-section::after {
+    visibility: hidden;
+  }
+}
+
+@media (max-height: 600px) {
+  .rolTittle {
+    font-size: 60px;
+    font-family: 'Copperplate Gothic Light', sans-serif;
+    margin-top: 0;
+  }
+
+  .chevron-section {
+    background-color: #800020;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+
+  .rolSubTittle {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Copperplate Gothic Light', sans-serif;
+  }
+
+  .chevron-section::before {
+    visibility: hidden;
+  }
+
+  .chevron-section::after {
+    visibility: hidden;
+  }
 }
