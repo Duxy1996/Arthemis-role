@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   background-color: white;
-  color: #C0504D; /* Color vino */
+  color: #800020; /* Color vino */
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #C0504D;
+  background-color: #800020;
   padding: 10px 0;
 }
 
@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 .rolTittle {
-  font-size: 120px;
+  font-size: 110px;
   font-family: 'Copperplate Gothic Light', sans-serif;
   margin-top: 0;
 }
@@ -63,21 +63,46 @@ h1 {
   margin-bottom: 20px;
 }
 
+.blod {
+  opacity: 0;
+  position: fixed;
+  top: 34%;
+  left: 20%;
+  height: 65px;
+  width: 65px;
+  background-color: #800020;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blod.visible {
+  opacity: 1;
+  position: fixed;
+  top: 34%;
+  left: 20%;
+  height: 65px;
+  width: 65px;
+  background-color: #800020;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 button {
-  background-color: #C0504D;
+  background-color: #800020;
   color: white;
   border: none;
   padding: 15px 30px;
   font-size: 1em;
   cursor: pointer;
+  font-family: 'Copperplate Gothic Light', sans-serif;
 }
 
 button:hover {
-  background-color: #C0504D;
+  background-color: #800020;
 }
 
 .chevron-section {
-  background-color: #C0504D;
+  background-color: #800020;
   height: 50px;
   width: 100%;
   position: absolute;
@@ -92,7 +117,7 @@ button:hover {
   right: 0;
   width: 100%;
   height: 200px;
-  background-color: #C0504D;
+  background-color: #800020;
   clip-path: polygon(50% 100%, 100% 100%, 100% 0);
 }
 
@@ -104,7 +129,7 @@ button:hover {
   left: 0;
   width: 100%;
   height: 200px;
-  background-color: #C0504D;
+  background-color: #800020;
   clip-path: polygon(50% 100%, 0% 100%, 0% 0)
 }
 
@@ -114,5 +139,12 @@ footer {
 }
 
 .hidden {
-  display: none;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  pointer-events: none;
+}
+
+.hidden.visible {
+  opacity: 1;
+  pointer-events: auto;
 }
