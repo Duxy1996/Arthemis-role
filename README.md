@@ -112,7 +112,7 @@ Color palette suggested: [palette](https://www.color-hex.com/color-palette/503)
 
 Color description: [color](https://www.color-name.com/hex/800020#color-palettes)
 
-![license](assets/color-image.webp)
+![license](assets/color-image.svg)
 
 ### Copperplate Gothic Font
 
@@ -130,4 +130,3 @@ Thank you for your interest in "ARTHEMIS COCKTAIL BAR"! Enjoy the game.
 ## License
 More basic and less restrictive, since the following will add more restrictions, the CC-BY license allows anyone to use the work or content for any purpose, with the option to modify it if desired and use it for commercial or non-commercial purposes. The only condition is that the author must always be credited.
 
-![license](assets/license-cc-by.png)
