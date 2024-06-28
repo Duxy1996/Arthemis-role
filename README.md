@@ -130,3 +130,13 @@ Thank you for your interest in "ARTHEMIS COCKTAIL BAR"! Enjoy the game.
 ## License
 More basic and less restrictive, since the following will add more restrictions, the CC-BY license allows anyone to use the work or content for any purpose, with the option to modify it if desired and use it for commercial or non-commercial purposes. The only condition is that the author must always be credited.
 
+![license](assets/license-cc-by.svg)
+
+## References
+
+* [Copperplate_Gothic font history](https://en.wikipedia.org/wiki/Copperplate_Gothic)
+* [Color palette information](https://www.color-hex.com/color-palette/503)
+* [Color hex information - 1](https://www.color-name.com/hex/800020)
+* [Color hex information - 2](https://www.color-hex.com/color/800020)
+* [Creative common information](https://creativecommons.org/licenses/by/4.0/deed.es)
+* [General licensing information](https://protecciondatos-lopd.com/empresas/licencias-creative-commons/#:~:text=Mediante%20la%20licencia%20CC%2DBY,misma%20licencia%20que%20la%20original.)
